@@ -16,3 +16,5 @@ app_password = getpass("Your Google App Password: ")
 smtp.login(emailObject['From'], app_password)
 smtp.send_message(emailObject)
 smtp.quit()
+
+# End of file
